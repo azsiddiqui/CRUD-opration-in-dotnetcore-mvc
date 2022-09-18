@@ -1,0 +1,142 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-nav li a {
+  color: #fff !important;
+}
+.header {
+  background: #6368ce;
+  width: 100%;
+  height: auto;
+}
+.fa-bars {
+  font-size: 25px;
+  color: #fff;
+  margin-top: 2px;
+}
+
+.icons li i {
+  background-color: #353988;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 30px;
+  line-height: 50px;
+  margin: 10px 0;
+}
+.icons li i:hover {
+  background: #999efc;
+  color: #000;
+  transition: 0.4s ease;
+}
+.why-app img:hover {
+  transform: scale(1.2);
+  transition: 0.4s ease;
+}
+
+/* pricing part start */
+
+.pricing,
+.app-ss {
+  width: 100%;
+  height: auto;
+  background: #6368ce;
+  color: #fff;
+}
+
+.select-btn {
+  border: 1px solid #0e82d9;
+  border-radius: 50px 0 0 50px;
+}
+.app-overview {
+  width: 100%;
+  height: auto;
+  background: #6368ce;
+  color: #fff;
+}
+
+.ribbon-wrapper {
+  overflow: hidden;
+  position: absolute;
+  right: -50px;
+  top: 10px;
+  width: 250px;
+  text-indent: 80px;
+  z-index: 10;
+  transform: rotate(45deg);
+  text-align: center;
+}
+.pricing-card {
+  overflow: hidden;
+}
+.row > * {
+  padding-right: 0 !important;
+}
+
+/* app sreenshot part start */
+
+.prv-btn {
+  position: absolute;
+  left: -20px;
+  top: 10px;
+}
+.nxt-btn {
+  position: absolute;
+  right: -20px;
+  top: 10px;
+}
+
+/* contact us part start */
+/*  */
+
+.contact {
+  height: 100vh;
+  width: 100%;
+  background: #6368ce;
+}
+
+.bg-main {
+  background: #6368ce;
+}
+
+input {
+  border: none !important;
+  border-bottom: 1px solid #000 !important;
+  background-color: transparent !important;
+  border-radius: 0px !important;
+}
+.icons i:hover {
+  transform: scale(1.3);
+  transition: 0.4s ease;
+}
+
+/* media query part  */
+
+@media (max-width: 700px) {
+  .hero {
+    width: 90%;
+  }
+  .hero img {
+    width: 80%;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+  }
+  .nxt-btn {
+    padding: 0%;
+    margin: 0%;
+    position: absolute;
+    top: 40%;
+    right: 50px;
+    z-index: -1 !important;
+  }
+  .prv-btn {
+    padding: 0%;
+    margin: 0%;
+    position: absolute;
+    top: 40%;
+    left: 50px;
+    z-index: -1 !important;
+  }
+}
